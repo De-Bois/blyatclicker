@@ -1,6 +1,8 @@
 {
-  inputs.pkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-  inputs.prisma-utils.url = "github:VanCoding/nix-prisma-utils";
+  inputs = {
+    pkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    prisma-utils.url = "github:VanCoding/nix-prisma-utils";
+  };
 
   outputs =
     { pkgs, prisma-utils, ... }:
