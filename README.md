@@ -1,4 +1,5 @@
 # Blyatclicker
+
 Rather not talk about this
 
 ## Plan
@@ -19,5 +20,4 @@ Rather not talk about this
 
 #### Deployment
 
-Docker container through Nginx
-
+Docker container through Nginx, maybe use [node2nix](https://github.com/svanderburg/node2nix)
